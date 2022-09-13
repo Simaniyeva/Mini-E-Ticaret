@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{823A6A34-CC59-4451-BC7E-4C50CEBFE20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniE-Ticaret.Domain", "MiniE-TicaretDomain\MiniE-Ticaret.Domain.csproj", "{C62386CB-3CD4-4FCA-AE1A-DE184A400558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniE-Ticaret.Application", "MiniE-TicaretApplication\MiniE-Ticaret.Application.csproj", "{3106FC6A-9BA4-4FD6-B497-C4F9E30D8447}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{758239AB-286B-4979-9906-77904BAB98E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniE-Ticaret.Infrastructure", "MiniE-Ticaret.Infrastructure\MiniE-Ticaret.Infrastructure.csproj", "{AF7D8828-6E43-4635-A2FD-1E50BA94E496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniE-Ticaret.Persistance", "MiniE-Ticaret.Persistance\MiniE-Ticaret.Persistance.csproj", "{BF1C408A-4144-4A1A-9459-E295A78E66B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FE2688D4-8BD7-4711-909D-E49CCEA9B372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaret.API", "ETicaret.API\ETicaret.API.csproj", "{878D3A73-ADF8-4599-A2E7-5934FD5992A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C62386CB-3CD4-4FCA-AE1A-DE184A400558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62386CB-3CD4-4FCA-AE1A-DE184A400558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62386CB-3CD4-4FCA-AE1A-DE184A400558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62386CB-3CD4-4FCA-AE1A-DE184A400558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3106FC6A-9BA4-4FD6-B497-C4F9E30D8447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3106FC6A-9BA4-4FD6-B497-C4F9E30D8447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3106FC6A-9BA4-4FD6-B497-C4F9E30D8447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3106FC6A-9BA4-4FD6-B497-C4F9E30D8447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7D8828-6E43-4635-A2FD-1E50BA94E496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7D8828-6E43-4635-A2FD-1E50BA94E496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7D8828-6E43-4635-A2FD-1E50BA94E496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7D8828-6E43-4635-A2FD-1E50BA94E496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1C408A-4144-4A1A-9459-E295A78E66B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1C408A-4144-4A1A-9459-E295A78E66B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1C408A-4144-4A1A-9459-E295A78E66B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1C408A-4144-4A1A-9459-E295A78E66B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878D3A73-ADF8-4599-A2E7-5934FD5992A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878D3A73-ADF8-4599-A2E7-5934FD5992A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878D3A73-ADF8-4599-A2E7-5934FD5992A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878D3A73-ADF8-4599-A2E7-5934FD5992A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C62386CB-3CD4-4FCA-AE1A-DE184A400558} = {823A6A34-CC59-4451-BC7E-4C50CEBFE20B}
+		{3106FC6A-9BA4-4FD6-B497-C4F9E30D8447} = {823A6A34-CC59-4451-BC7E-4C50CEBFE20B}
+		{AF7D8828-6E43-4635-A2FD-1E50BA94E496} = {758239AB-286B-4979-9906-77904BAB98E4}
+		{BF1C408A-4144-4A1A-9459-E295A78E66B8} = {758239AB-286B-4979-9906-77904BAB98E4}
+		{878D3A73-ADF8-4599-A2E7-5934FD5992A9} = {FE2688D4-8BD7-4711-909D-E49CCEA9B372}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05320481-A2F1-41A3-95E8-F0B05693CCE9}
+	EndGlobalSection
+EndGlobal
